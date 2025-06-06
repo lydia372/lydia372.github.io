@@ -11,14 +11,14 @@ baseurl: ""  # 留空代表部署在根目录
 # ✅ Sidebar Profile Info (左边栏内容)
 # ==================================================
 author:
-  avatar: "images/android-chrome-192x192.png"
-  name: "Yichuan Li"
+  avatar: "profile.png"
+  name: "Yichuan Liu"
   bio: "Personal Website"
-  location: "San Francisco Bay Area"
-  employer:
+  location: "Singapore"
+  employer: "National University of Singapore"
   email: "yichuan025@gmail.com"
   github: "lydia372"
-  linkedin: "liu-yichuan"  # ⚠️改成你真实的 LinkedIn ID
+  linkedin: "liu-yichuan" 
 
 
 # ==================================================
