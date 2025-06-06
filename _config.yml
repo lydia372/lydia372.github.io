@@ -58,7 +58,7 @@ plugins:
 # ✅ 输出设置（文章链接结构）
 # ==================================================
 permalink: /:categories/:title/
-timezone: America/Los_Angeles # Changed to Pacific Time
+timezone: Asia/Singapore # Changed to Pacific Time
 
 # ==================================================
 # ✅ 其他设置
@@ -98,6 +98,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - images
 exclude:
   - docs
   - google_scholar_crawler
