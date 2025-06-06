@@ -3,6 +3,10 @@ logo: /assets/img/IMG_4108.JPG
 description: Business Analytics Student | AI x Finance | Portfolio & Projects
 #show_downloads: true 
 theme: jekyll-theme-minimal
+markdown: kramdown
+include:
+  - assets/css/style.css
+
 # Optional social links (displayed as icons)
 social_links:
   - name: LinkedIn
