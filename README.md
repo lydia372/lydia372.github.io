@@ -3,7 +3,7 @@
 #### Technical Skills: Python, R, SQL, JavaScript, Power BI, Tableau, Advanced Excel
 
 ## Education			        		
-- B.S., Business Analytics | National University of Singapore (_May 2027_)
+B.S., Business Analytics | National University of Singapore (_May 2027_)
 
 ## Work Experience
 **Intern @ Scantist (_May 2024 - Present_)**
