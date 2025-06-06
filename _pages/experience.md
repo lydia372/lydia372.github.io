@@ -13,7 +13,7 @@ author_profile: true
 - Developed and maintained automated data pipelines for university-wide incident reports across departments  
 - Streamlined the generation of risk dashboards to monitor and visualize operational risks institution-wide
 
-### 📈 Data Analyst @ Business Analytics Consulting Club _(Dec 2024 – Present)_
+### 📈 Data Analyst @ NUS Business Analytics Consulting _(Dec 2024 – Present)_
 - Designed predictive analytics models using time series forecasting to support strategic decision-making  
 - Built machine learning models to uncover trends and deliver actionable insights for case competition problems
 
