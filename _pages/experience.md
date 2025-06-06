@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-## 💼 Work & Research Experience
-
 ### 🧠 Intern @ Scantist _(May 2024 – Present)_
 - Built interactive dashboards and visualizations to track satisfaction and enhance cybersecurity course experience  
 - Researched LLM applications and AI benchmarks in cybersecurity, translating insights into business-focused blog content

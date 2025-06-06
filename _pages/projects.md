@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-## 🛠 Featured Projects
-
 ### 🔹 [TradeGuardian AI](https://github.com/bnb-hack)
 
 Developed an AI-powered DeFi trading assistant that enables users to execute crypto trades via natural language through a chatbot interface. Integrated OpenAI for adaptive decision-making, Jupiter Aggregator for pre-trade simulation and on-chain execution, and a custom trust scoring engine to evaluate token safety — with full transparency via automated Twitter reporting.
