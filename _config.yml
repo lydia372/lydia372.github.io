@@ -1,5 +1,11 @@
 title: Liu Yichuan
 logo: /assets/img/IMG_4108.JPG
-descrition: text below image 
+description: Business Analytics Student | AI x Finance | Portfolio & Projects
 #show_downloads: true 
 theme: jekyll-theme-minimal
+# Optional social links (displayed as icons)
+social_links:
+  - name: LinkedIn
+    url: linkedin.com/in/liu-yichuan
+  - name: Email
+    url: e1338698@u.nus.edu
