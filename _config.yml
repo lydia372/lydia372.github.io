@@ -25,10 +25,10 @@ author:
 # ✅ Navigation Bar 顶部导航栏页面（顺序可调）
 # ==================================================
 header_pages:
-  - about.md
-  - projects.md
-  - experience.md
-  - cv.md
+  - _pages/about.md
+  - _pages/projects.md
+  - _pages/experience.md
+  - _pages/cv.md
 
 # ==================================================
 # ✅ Markdown 设置 + 页面布局
