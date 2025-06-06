@@ -1,9 +1,9 @@
 # ==================================================
 # ✅ Basic Site Info
 # ==================================================
-title: "Liu Yichuan"
+title: "Yichuan Liu"
 name: "Liu Yichuan"
-description: "Business Analytics @ NUS | AI x Finance | Portfolio & Projects"
+description: "Personal Website"
 url: "https://lydia372.github.io"
 baseurl: ""  # 留空代表部署在根目录
 
@@ -11,11 +11,11 @@ baseurl: ""  # 留空代表部署在根目录
 # ✅ Sidebar Profile Info (左边栏内容)
 # ==================================================
 author:
-  avatar: "profile.png"
-  name: "Liu Yichuan"
-  bio: "Business Analytics student at NUS"
-  location: "Singapore"
-  employer: "National University of Singapore"
+  avatar: "images/android-chrome-192x192.png"
+  name: "Yichuan Li"
+  bio: "Personal Website"
+  location: "San Francisco Bay Area"
+  employer:
   email: "yichuan025@gmail.com"
   github: "lydia372"
   linkedin: "liu-yichuan"  # ⚠️改成你真实的 LinkedIn ID
@@ -41,18 +41,124 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: default
       author_profile: true
 
 # ==================================================
 # ✅ 插件（建议保留 RSS Feed 和 sitemap）
 # ==================================================
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
 
 # ==================================================
 # ✅ 输出设置（文章链接结构）
 # ==================================================
 permalink: /:categories/:title/
-timezone: Asia/Singapore
+timezone: America/Los_Angeles # Changed to Pacific Time
+
+# ==================================================
+# ✅ 其他设置
+# ==================================================
+repository: "lydia372/lydia372.github.io"
+google_scholar_stats_use_cdn: false
+google_analytics_id:  # get google_analytics_id from https://analytics.google.com/analytics/
+google_site_verification:  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification:  # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification:  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+pubmed:
+googlescholar:
+researchgate:  # e.g., "https://www.researchgate.net/profile/yourprofile"
+uri:
+bitbucket:
+codepen:
+dribbble:
+flickr:
+facebook:
+foursquare:
+instagram:
+impactstory: # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+lastfm:
+pinterest:
+soundcloud:
+stackoverflow: # http://stackoverflow.com/users/123456/username
+steam:
+tumblr:
+twitter:
+vine:
+weibo:
+xing:
+youtube:
+wikipedia:
+
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# ==================================================
+# ✅ 其他设置
+# ==================================================
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# ==================================================
+# ✅ 其他设置
+# ==================================================
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# ==================================================
+# ✅ 其他设置
+# ==================================================
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# ==================================================
+# ✅ 其他设置
+# ==================================================
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
