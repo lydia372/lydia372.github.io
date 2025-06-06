@@ -1,31 +1,42 @@
-# Basic Site Info
+# ==================================================
+# ✅ Basic Site Info
+# ==================================================
 title: "Liu Yichuan"
 name: "Liu Yichuan"
 description: "Business Analytics @ NUS | AI x Finance | Portfolio & Projects"
 url: "https://lydia372.github.io"
-baseurl: ""  # 留空表示网站部署在根目录
+baseurl: ""  # 留空代表部署在根目录
 
-# Sidebar Profile Info
+# ==================================================
+# ✅ Sidebar Profile Info (左边栏内容)
+# ==================================================
 author:
   avatar: "profile.png"
   name: "Liu Yichuan"
   bio: "Business Analytics student at NUS"
   location: "Singapore"
+  employer: "National University of Singapore"
   email: "yichuan025@gmail.com"
-  linkedin: "your-linkedin-id"   # 如果没有可以删掉或留空
+  github: "lydia372"
+  linkedin: "liu-yichuan-123456"  # ⚠️改成你真实的 LinkedIn ID
+  scholar: ""                     # 如你有 Google Scholar 可填写，否则留空
+  orcid: ""                       # 如没有 ORCID，可留空或删掉
 
-# Navigation Bar
+# ==================================================
+# ✅ Navigation Bar 顶部导航栏页面（顺序可调）
+# ==================================================
 header_pages:
   - about.md
   - projects.md
   - experience.md
   - cv.md
 
-# Markdown + Layout
+# ==================================================
+# ✅ Markdown 设置 + 页面布局
+# ==================================================
 markdown: kramdown
 highlighter: rouge
 
-# Default Layout Settings
 defaults:
   - scope:
       path: ""
@@ -34,11 +45,15 @@ defaults:
       layout: single
       author_profile: true
 
-# Plugins (推荐保留 RSS 和 sitemap)
+# ==================================================
+# ✅ 插件（建议保留 RSS Feed 和 sitemap）
+# ==================================================
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Permalink format
+# ==================================================
+# ✅ 输出设置（文章链接结构）
+# ==================================================
 permalink: /:categories/:title/
 timezone: Asia/Singapore
