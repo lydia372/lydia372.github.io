@@ -1,6 +1,6 @@
-# Data Scientist
+# Business Analytics
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Python, R, SQL, JavaScript, Power BI, Tableau, Advanced Excel
 
 ## Education			        		
 - B.S., Business Analytics | National University of Singapore (_May 2027_)
@@ -37,11 +37,11 @@ Developed a simulation of voter behavior on a social graph to evaluate political
 
 ## School Activities and Leadership
 
-### Vice President & Publicity Manager  @ NUS Harmonica (_Apr 2025 – Present_)** 
+**Vice President & Publicity Manager  @ NUS Harmonica (_Apr 2025 – Present_)** 
 - Oversaw club operations, coordinated internal workflows, and led event planning for performances and recruitment initiatives
 - Designed and executed multi-channel publicity campaigns to enhance club visibility and drive engagement among the student community
  
-### Associate  @ NTU Business Solutions Case Club (_Aug 2023 – Jan 2024_)** 
+**Associate  @ NTU Business Solutions Case Club (_Aug 2023 – Jan 2024_)** 
 - Conducted market research and competitor benchmarking to support strategic case development across industries such as F&B, finance, and aviation
 - Collaborated in cross-functional teams to develop innovative, data-backed solutions for real-world business problems
 - Awarded Top 10 Team in Singapore at the Young SDG Leaders Award 2024 for proposing a sustainable business strategy
