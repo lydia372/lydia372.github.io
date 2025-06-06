@@ -1,10 +1,8 @@
 ---
 permalink: /
-title: "About Me"
+title: "Yichuan Liu"
+layout: single
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 Hi! I'm **Liu Yichuan** 👋, currently pursuing a Bachelor of Science in Business Analytics at the National University of Singapore (NUS). 
 
