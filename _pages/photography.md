@@ -17,6 +17,6 @@ gallery:
 
 # Photography Portfolio
 
-Welcome to my photography portfolio! This gallery showcases my photographic work, capturing moments and perspectives through the lens. Each photograph tells its own story and reflects my artistic vision.
+capturing moments and perspectives through the lens.将生命的某个切片凝固为永恒
 
 {% include gallery caption="A collection of my photographs" %} 
