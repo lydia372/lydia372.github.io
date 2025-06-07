@@ -8,10 +8,16 @@ classes: wide
 
 <div class="hero-section" markdown="1">
 # Hey, I'm Yichuan Liu
-{: .text-center}
+{: .hero-title}
 
-I'm a Business Analytics student at NUS, passionate about data science, AI, and creative arts. Here you can explore my projects, artwork, and thoughts.
-{: .text-center .intro-text}
+<div class="hero-subtitle" markdown="1">
+Business Analytics Student @ NUS
+</div>
+
+<div class="hero-description" markdown="1">
+Passionate about data science, AI, and finance. \\
+Exploring the intersection of technology and human decision-making.
+</div>
 </div>
 
 <div class="featured-work" markdown="1">
@@ -38,22 +44,58 @@ Graph Neural Networks for political influence analysis
 
 <style>
 .hero-section {
-  padding: 4em 0;
-  background: linear-gradient(to right, #f8f9fa, #e9ecef);
-  border-radius: 10px;
-  margin-bottom: 3em;
+  padding: 6em 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 15px;
+  margin-bottom: 4em;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(52, 152, 219, 0.05) 0%, rgba(52, 152, 219, 0) 100%);
+  z-index: 1;
+}
+
+.hero-title {
+  font-size: 3.5em;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.3em;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  color: #3498db;
+  margin-bottom: 1.5em;
+  font-weight: 500;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-description {
+  font-size: 1.2em;
+  color: #495057;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+  position: relative;
+  z-index: 2;
 }
 
 .text-center {
   text-align: center;
-}
-
-.intro-text {
-  font-size: 1.2em;
-  color: #495057;
-  max-width: 600px;
-  margin: 1em auto;
-  line-height: 1.6;
 }
 
 .section-title {
@@ -99,7 +141,20 @@ Graph Neural Networks for political influence analysis
 
 @media (max-width: 768px) {
   .hero-section {
-    padding: 2em 1em;
+    padding: 4em 1em;
+  }
+  
+  .hero-title {
+    font-size: 2.5em;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2em;
+  }
+  
+  .hero-description {
+    font-size: 1.1em;
+    padding: 0 1em;
   }
   
   .project-grid {

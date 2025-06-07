@@ -15,8 +15,9 @@ gallery:
     title: "Artwork 3"
 ---
 
-# Digital & Traditional Art Gallery
+# Art Gallery
 
-Welcome to my art gallery! Here you'll find a collection of my artwork, including both digital and traditional pieces. Each piece represents a unique exploration of creativity and artistic expression.
+Painting is how yesterday returns — a subjective lens through which I process the world, and a magic that allows me to create anything.
+画画是让昨日重现的一种方式，是主观处理的世界，是可以创造一切的魔法
 
 {% include gallery caption="A collection of my artwork" %} 
