@@ -12,11 +12,11 @@ main:
     url: /projects/
   - title: "Experience"
     url: /experience/
-  - title: "CV"
-    url: /cv/
   - title: "Artworks"
     url: /artworks/
   - title: "Photography"
     url: /photography/
   - title: "Blog"
     url: /blog/
+  - title: "CV"
+    url: /cv/
