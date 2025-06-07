@@ -6,8 +6,44 @@ author_profile: true
 classes: wide
 ---
 
+<style>
+.author__avatar {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 1em;
+}
+
+.author__avatar img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar.sticky {
+  opacity: 1 !important;
+  -webkit-transition: opacity 0.75s ease-in-out;
+  transition: opacity 0.75s ease-in-out;
+}
+
+@media (min-width: 64em) {
+  .author__avatar {
+    display: block;
+    width: auto;
+    max-width: 250px;
+    margin: 0 auto 1em;
+  }
+  
+  .author__avatar img {
+    max-width: 250px;
+    padding: 5px;
+  }
+}
+</style>
+
 <div class="hero-section" markdown="1">
-# Hey, I'm Yichuan Liu
+## Hey, I'm Yichuan Liu
 {: .hero-title}
 
 <div class="hero-subtitle" markdown="1">
