@@ -2,7 +2,7 @@
 # ✅ Basic Site Info
 # ==================================================
 title: "Yichuan Liu"
-name: "Yichuan Liu"
+name: "Liu Yichuan"
 description: "Personal Website"
 url: "https://lydia372.github.io"
 baseurl: ""  # 留空代表部署在根目录
@@ -29,6 +29,8 @@ header_pages:
   - _pages/projects.md
   - _pages/experience.md
   - _pages/cv.md
+  - _pages/artworks.md
+  - _pages/photography.md
 
 # ==================================================
 # ✅ Markdown 设置 + 页面布局

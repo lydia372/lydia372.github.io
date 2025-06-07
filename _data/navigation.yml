@@ -14,5 +14,9 @@ main:
     url: /experience/
   - title: "CV"
     url: /cv/
+  - title: "Artworks"
+    url: /artworks/
+  - title: "Photography"
+    url: /photography/
   - title: "Blog"
     url: /blog/
