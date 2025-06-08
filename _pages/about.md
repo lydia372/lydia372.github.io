@@ -1,4 +1,4 @@
----More actions
+---
 layout: single
 title: ""
 permalink: /
@@ -203,9 +203,8 @@ Graph Neural Networks for political influence analysis
   }
 
   .hero-description {
-    font-size: 1.1em;
     font-size: 1em;
-    padding: 0 1em;
+    max-width: 100%;
   }
 
   .project-grid {
@@ -213,40 +212,3 @@ Graph Neural Networks for political influence analysis
   }
 }
 </style>
-</style>
-
-<div class="hero-section" markdown="1">
-## Hey, I'm Yichuan Liu
-{: .hero-title}
-
-<div class="hero-subtitle" markdown="1">
-Business Analytics Student @ NUS
-</div>
-
-<div class="hero-description" markdown="1">
-Passionate about data science, AI, and finance. \\
-Exploring the intersection of technology and human decision-making.
-</div>
-</div>
-
-<div class="featured-work" markdown="1">
-## Featured Work
-{: .section-title}
-
-<div class="project-grid" markdown="1">
-<div class="project-card" markdown="1">
-### [TradeGuardian AI](https://github.com/bnb-hack)
-AI-powered DeFi trading assistant with natural language interface
-</div>
-
-<div class="project-card" markdown="1">
-### [NUSGlance](https://bt3103-7c86e.web.app)
-Unified academic tracking platform for better student experience
-</div>
-
-<div class="project-card" markdown="1">
-### [Social Influence Analysis](https://github.com/lydia372/Social-Influence-Optimization-via-Graph-Neural-Networks/tree/main)
-Graph Neural Networks for political influence analysis
-</div>
-</div>
-</div>
