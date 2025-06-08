@@ -7,16 +7,16 @@ classes: wide
 ---
 
 <style>
+.page__content {
+  padding-right: 200px;
+}
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5em;
   margin: 2em 0;
-}
-
-.archive {
-  padding-right: 0;
-  width: calc(100% - 100px);
+  max-width: 100%;
 }
 
 .project-card {
@@ -27,6 +27,7 @@ classes: wide
   text-decoration: none;
   color: inherit;
   border: 1px solid #edf2f7;
+  width: 100%;
 }
 
 .project-card:hover {
@@ -103,6 +104,16 @@ classes: wide
   
   .project-content {
     padding: 1em;
+  }
+
+  .page__content {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 80em) {
+  .page__content {
+    padding-right: 300px;
   }
 }
 </style>
