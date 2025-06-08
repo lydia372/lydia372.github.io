@@ -72,7 +72,7 @@ Unified academic tracking platform for better student experience
 </div>
 
 <div class="project-card" markdown="1">
-### [Social Influence Analysis](projects/social-influence)
+### [Social Influence Analysis](https://github.com/lydia372/Social-Influence-Optimization-via-Graph-Neural-Networks/tree/main)
 Graph Neural Networks for political influence analysis
 </div>
 </div>

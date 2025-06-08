@@ -17,6 +17,6 @@ Designed and developed a unified academic tracking platform using Vue.js and Fir
 
 ---
 
-### 🔗 Social Influence Optimization via Graph Neural Networks
+### 🔗 [Social Influence Optimization via Graph Neural Networks](https://github.com/lydia372/Social-Influence-Optimization-via-Graph-Neural-Networks/tree/main)
 
 Developed a simulation of voter behavior on a social graph to evaluate political influence strategies. Built an undirected graph from shared hobbies and modeled daily vote propagation until stabilization. Simulated interventions — such as targeted influencers and hobby-based tactics — to assess impact on voting outcomes. Applied spectral graph theory (Laplacian eigen-decomposition, L^k) to identify the most structurally influential nodes, informing optimal influence strategies based on network topology.
