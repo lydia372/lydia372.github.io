@@ -1,4 +1,4 @@
----
+---More actions
 layout: single
 title: ""
 permalink: /
@@ -34,27 +34,64 @@ classes: wide
     max-width: 250px;
     margin: 0 auto 1em;
   }
-  
+
   .author__avatar img {
     max-width: 250px;
     padding: 5px;
   }
 }
+</style>
 
-.page {
-  padding-right: 0 !important;
-  width: 100% !important;
-  float: left !important;
-}
+<div class="hero-section" markdown="1">
+## Hey, I'm Yichuan Liu
+{: .hero-title}
 
+<div class="hero-subtitle" markdown="1">
+Business Analytics Student @ NUS
+</div>
+
+<div class="hero-description" markdown="1">
+Passionate about data science, AI, and finance. \\
+Exploring the intersection of technology and human decision-making.
+</div>
+</div>
+
+<div class="featured-work" markdown="1">
+## Featured Work
+{: .section-title}
+
+<div class="project-grid" markdown="1">
+<div class="project-card" markdown="1">
+### [TradeGuardian AI](https://github.com/bnb-hack)
+AI-powered DeFi trading assistant with natural language interface
+</div>
+
+<div class="project-card" markdown="1">
+### [NUSGlance](https://bt3103-7c86e.web.app)
+Unified academic tracking platform for better student experience
+</div>
+
+<div class="project-card" markdown="1">
+### [Social Influence Analysis](https://github.com/lydia372/Social-Influence-Optimization-via-Graph-Neural-Networks/tree/main)
+Graph Neural Networks for political influence analysis
+</div>
+</div>
+</div>
+
+<style>
 .hero-section {
-  padding: 6em 2em;
+  padding: 6em 0;
+  padding: 3em 2em;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 15px;
-  margin: 0 auto 4em;
+  margin-bottom: 4em;
+  margin-bottom: 3em;
   text-align: center;
   position: relative;
   overflow: hidden;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-section::before {
@@ -69,6 +106,7 @@ classes: wide
 }
 
 .hero-title {
+  font-size: 3.5em;
   font-size: 2.8em;
   font-weight: 700;
   color: #2c3e50;
@@ -80,8 +118,10 @@ classes: wide
 }
 
 .hero-subtitle {
+  font-size: 1.5em;
   font-size: 1.3em;
   color: #3498db;
+  margin-bottom: 1.5em;
   margin-bottom: 1.2em;
   font-weight: 500;
   position: relative;
@@ -89,10 +129,13 @@ classes: wide
 }
 
 .hero-description {
+  font-size: 1.2em;
   font-size: 1.1em;
   color: #495057;
+  max-width: 600px;
   max-width: 500px;
   margin: 0 auto;
+  line-height: 1.8;
   line-height: 1.6;
   position: relative;
   z-index: 2;
@@ -145,26 +188,31 @@ classes: wide
 
 @media (max-width: 768px) {
   .hero-section {
+    padding: 4em 1em;
     padding: 2em 1em;
   }
-  
+
   .hero-title {
+    font-size: 2.5em;
     font-size: 2em;
   }
-  
+
   .hero-subtitle {
+    font-size: 1.2em;
     font-size: 1.1em;
   }
-  
+
   .hero-description {
+    font-size: 1.1em;
     font-size: 1em;
     padding: 0 1em;
   }
-  
+
   .project-grid {
     grid-template-columns: 1fr;
   }
 }
+</style>
 </style>
 
 <div class="hero-section" markdown="1">
