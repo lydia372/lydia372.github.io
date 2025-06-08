@@ -9,10 +9,14 @@ classes: wide
 <style>
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2em;
-  margin: 2em auto;
-  max-width: 1200px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.archive {
+  padding-right: 0;
+  width: calc(100% - 100px);
 }
 
 .project-card {
@@ -31,16 +35,16 @@ classes: wide
 
 .project-image {
   width: 100%;
-  height: 220px;
+  height: 200px;
   object-fit: cover;
 }
 
 .project-content {
-  padding: 1.5em;
+  padding: 1.2em;
 }
 
 .project-title {
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #2d3748;
   margin: 0 0 0.5em 0;
   font-weight: 600;
@@ -88,10 +92,9 @@ classes: wide
   transform: translateX(3px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .projects-container {
     grid-template-columns: 1fr;
-    padding: 0 1em;
   }
   
   .project-image {
@@ -99,7 +102,7 @@ classes: wide
   }
   
   .project-content {
-    padding: 1.2em;
+    padding: 1em;
   }
 }
 </style>

@@ -2,7 +2,7 @@
 layout: single
 title: ""
 permalink: /
-author_profile: true
+author_profile: false
 classes: wide
 ---
 
@@ -41,17 +41,20 @@ classes: wide
   }
 }
 
+.page {
+  padding-right: 0 !important;
+  width: 100% !important;
+  float: left !important;
+}
+
 .hero-section {
-  padding: 3em 2em;
+  padding: 6em 2em;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 15px;
-  margin-bottom: 3em;
+  margin: 0 auto 4em;
   text-align: center;
   position: relative;
   overflow: hidden;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-section::before {
