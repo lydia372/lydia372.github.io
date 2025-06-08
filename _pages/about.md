@@ -7,6 +7,16 @@ classes: wide
 ---
 
 <style>
+.page__content {
+  padding-right: 0;
+}
+
+@media (min-width: 80em) {
+  .page__content {
+    margin-right: 300px;
+  }
+}
+
 .author__avatar {
   display: block;
   width: 100%;
@@ -80,18 +90,14 @@ Graph Neural Networks for political influence analysis
 
 <style>
 .hero-section {
-  padding: 6em 0;
   padding: 3em 2em;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 15px;
-  margin-bottom: 4em;
   margin-bottom: 3em;
   text-align: center;
   position: relative;
   overflow: hidden;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 .hero-section::before {
@@ -188,8 +194,14 @@ Graph Neural Networks for political influence analysis
 
 @media (max-width: 768px) {
   .hero-section {
-    padding: 4em 1em;
     padding: 2em 1em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .page__content {
+    margin-right: 0;
   }
 
   .hero-title {
