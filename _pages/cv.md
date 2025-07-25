@@ -7,11 +7,11 @@ classes: wide
 ---
 
 <div class="cv-header" markdown="1">
-# Business Analytics
+# Business Analytics 📊
 {: .text-center}
 
 <div class="technical-skills" markdown="1">
-## Technical Skills
+## Technical Skills 🛠️
 {: .cv-section-title}
 
 <div class="skills-grid" markdown="1">
@@ -42,7 +42,7 @@ classes: wide
 </div>
 
 <div class="education" markdown="1">
-## Education
+## Education 🎓
 {: .cv-section-title}
 
 <div class="education-entry" markdown="1">
@@ -54,11 +54,11 @@ National University of Singapore \\
 </div>
 
 <div class="experience" markdown="1">
-## Work Experience
+## Work Experience 💼
 {: .cv-section-title}
 
 <div class="experience-entry" markdown="1">
-### Actuarial Business Intelligence Intern @ Monee (Insurance & Fintech)
+### 🏦 Actuarial Business Intelligence Intern @ Monee (Insurance & Fintech)
 {: .experience-title}
 *June 2025 – Present*
 {: .experience-date}
@@ -68,7 +68,7 @@ National University of Singapore \\
 </div>
 
 <div class="experience-entry" markdown="1">
-### Intern @ Scantist
+### 🛡️ Intern @ Scantist
 {: .experience-title}
 *May 2024 – June 2025*
 {: .experience-date}
@@ -78,7 +78,7 @@ National University of Singapore \\
 </div>
 
 <div class="experience-entry" markdown="1">
-### Risk Management Assistant @ NUS Office of Risk Management and Compliance
+### 🏛️ Risk Management Assistant @ NUS Office of Risk Management and Compliance
 {: .experience-title}
 *May 2025 – June 2025*
 {: .experience-date}
@@ -88,7 +88,7 @@ National University of Singapore \\
 </div>
 
 <div class="experience-entry" markdown="1">
-### Data Analyst @ Business Analytics Consulting Club
+### 📈 Data Analyst @ Business Analytics Consulting Club
 {: .experience-title}
 *Dec 2024 – Present*
 {: .experience-date}
