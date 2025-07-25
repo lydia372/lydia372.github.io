@@ -61,8 +61,8 @@ Business Analytics Student @ NUS
 </div>
 
 <div class="hero-description" markdown="1">
-Passionate about data science, AI, and finance. \\
-Exploring the intersection of technology and human decision-making.
+Passionate about data science, AI, and actuarial analytics. \\
+Currently interning at Monee (Insurance & Fintech) in Singapore.
 </div>
 </div>
 

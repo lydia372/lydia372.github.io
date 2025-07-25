@@ -58,9 +58,19 @@ National University of Singapore \\
 {: .cv-section-title}
 
 <div class="experience-entry" markdown="1">
+### Actuarial Business Intelligence Intern @ Monee (Insurance & Fintech)
+{: .experience-title}
+*June 2025 – Present*
+{: .experience-date}
+
+- Optimized data workflow design to enhance the efficiency and accuracy of recurring actuarial reporting
+- Conducted in-depth half-year review & presentation of Straight-Through Processing (STP) for insurance claims, identifying key bottlenecks, backtesting, and refining pass-through thresholds to improve claim automation 
+</div>
+
+<div class="experience-entry" markdown="1">
 ### Intern @ Scantist
 {: .experience-title}
-*May 2024 - Present*
+*May 2024 – June 2025*
 {: .experience-date}
 
 - Built interactive dashboards and visualizations to track satisfaction and enhance cybersecurity course experience
@@ -70,7 +80,7 @@ National University of Singapore \\
 <div class="experience-entry" markdown="1">
 ### Risk Management Assistant @ NUS Office of Risk Management and Compliance
 {: .experience-title}
-*May 2025 - Present*
+*May 2025 – June 2025*
 {: .experience-date}
 
 - Developed and maintained automated data processing and analysis pipelines for university-wide incident reports across departments
@@ -80,7 +90,7 @@ National University of Singapore \\
 <div class="experience-entry" markdown="1">
 ### Data Analyst @ Business Analytics Consulting Club
 {: .experience-title}
-*Dec 2024 - Present*
+*Dec 2024 – Present*
 {: .experience-date}
 
 - Designed and implemented predictive analytics models using time series forecasting to support strategic decision-making
