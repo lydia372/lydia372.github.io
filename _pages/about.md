@@ -53,17 +53,33 @@ classes: wide
 </style>
 
 <div class="hero-section" markdown="1">
-## Hey, I'm Yichuan Liu
+## Hi, I'm Yichuan Liu
 {: .hero-title}
 
 <div class="hero-subtitle" markdown="1">
-Business Analytics Student @ NUS
+Business Analytics @ NUS | AI x Finance
 </div>
 
 <div class="hero-description" markdown="1">
-Passionate about data science, AI, and actuarial analytics. \\
+I build AI-driven tools for trading, decision support, and student success. \\
 Currently interning at Monee (Insurance & Fintech) in Singapore.
 </div>
+</div>
+
+<div class="bio-section" markdown="1">
+## Bio
+{: .section-title}
+
+I'm a Business Analytics student at NUS focused on machine learning, behavioral modeling, and data products. I've built autonomous trading agents, social influence simulations, and academic platforms that help students manage coursework more efficiently. I'm most interested in AI for finance and human decision-making.
+</div>
+
+<div class="highlights" markdown="1">
+## Highlights
+{: .section-title}
+
+- Built AI trading agents that combine market signals with natural language interfaces.
+- Modeled social influence dynamics with graph neural networks and simulation.
+- Shipped student tools like NUSGlance to improve academic planning and visibility.
 </div>
 
 <div class="featured-work" markdown="1">
