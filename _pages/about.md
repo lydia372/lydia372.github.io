@@ -57,12 +57,16 @@ classes: wide
 {: .hero-title}
 
 <div class="hero-subtitle" markdown="1">
-Business Analytics @ NUS | AI x Finance
+Business Analytics & Quantitative Finance @ NUS
 </div>
 
 <div class="hero-description" markdown="1">
-I build AI-driven tools for trading, decision support, and student success. \\
-Currently interning at Monee (Insurance & Fintech) in Singapore.
+I build AI-driven analytics and decision tools for finance, logistics, and healthcare. \\
+Available for full-time internship: May 13, 2026 – Dec 30, 2026
+</div>
+
+<div class="hero-links" markdown="1">
+HP: [ +65 8680 0146 ](tel:+6586800146) | Email: [yichuanliu@u.nus.edu](mailto:yichuanliu@u.nus.edu) | LinkedIn: [linkedin.com/in/liu-yichuan](https://linkedin.com/in/liu-yichuan)
 </div>
 </div>
 
@@ -70,16 +74,17 @@ Currently interning at Monee (Insurance & Fintech) in Singapore.
 ## Bio
 {: .section-title}
 
-I'm a Business Analytics student at NUS focused on machine learning, behavioral modeling, and data products. I've built autonomous trading agents, social influence simulations, and academic platforms that help students manage coursework more efficiently. I'm most interested in AI for finance and human decision-making.
+I'm a Business Analytics & Quantitative Finance student at NUS (School of Computing), graduating May 2027. My work focuses on ML-driven analytics, simulation, and productized data tooling across finance, logistics, and healthcare.
 </div>
 
 <div class="highlights" markdown="1">
 ## Highlights
 {: .section-title}
 
-- Built AI trading agents that combine market signals with natural language interfaces.
-- Modeled social influence dynamics with graph neural networks and simulation.
-- Shipped student tools like NUSGlance to improve academic planning and visibility.
+- A*STAR (IHPC): Built predictive models on large-scale AIS data to forecast port turnaround time and capacity stress points.
+- Monee (Sea Group): Rebuilt actuarial ETL pipelines in Python/SQL/Spark, improving performance by ~30%.
+- UBS FinAI: Delivered FX volatility attribution with RAG-enabled sentiment analysis and factor modeling.
+- NCCS AI agent: Built an NLP analytics agent for clinical data exploration and dashboards.
 </div>
 
 <div class="featured-work" markdown="1">
@@ -106,14 +111,15 @@ Graph Neural Networks for political influence analysis
 
 <style>
 .hero-section {
-  padding: 3em 2em;
+  padding: 2em 2.5em;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 15px;
-  margin-bottom: 3em;
+  margin: 0 auto 2.25em;
   text-align: center;
   position: relative;
   overflow: hidden;
   width: 100%;
+  max-width: 980px;
 }
 
 .hero-section::before {
@@ -128,7 +134,6 @@ Graph Neural Networks for political influence analysis
 }
 
 .hero-title {
-  font-size: 3.5em;
   font-size: 2.8em;
   font-weight: 700;
   color: #2c3e50;
@@ -140,7 +145,6 @@ Graph Neural Networks for political influence analysis
 }
 
 .hero-subtitle {
-  font-size: 1.5em;
   font-size: 1.3em;
   color: #3498db;
   margin-bottom: 1.5em;
@@ -151,14 +155,20 @@ Graph Neural Networks for political influence analysis
 }
 
 .hero-description {
-  font-size: 1.2em;
   font-size: 1.1em;
   color: #495057;
-  max-width: 600px;
   max-width: 500px;
   margin: 0 auto;
   line-height: 1.8;
   line-height: 1.6;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-links {
+  margin-top: 0.75em;
+  font-size: 0.95em;
+  color: #6c757d;
   position: relative;
   z-index: 2;
 }
@@ -210,7 +220,7 @@ Graph Neural Networks for political influence analysis
 
 @media (max-width: 768px) {
   .hero-section {
-    padding: 2em 1em;
+    padding: 1.5em 1em;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
