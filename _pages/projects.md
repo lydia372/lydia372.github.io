@@ -7,10 +7,6 @@ classes: wide
 ---
 
 <style>
-.page__content {
-  padding-right: 200px;
-}
-
 .projects-container {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -62,6 +58,12 @@ classes: wide
   color: #2d3748;
   margin: 0 0 0.8em 0;
   font-weight: 600;
+}
+
+.project-meta {
+  font-size: 0.9em;
+  color: #718096;
+  margin: -0.4em 0 0.9em 0;
 }
 
 .project-description {
@@ -120,16 +122,6 @@ classes: wide
   .project-content {
     padding: 1.2em;
   }
-
-  .page__content {
-    padding-right: 0;
-  }
-}
-
-@media (min-width: 80em) {
-  .page__content {
-    padding-right: 300px;
-  }
 }
 </style>
 
@@ -137,55 +129,74 @@ classes: wide
 
 <div class="project-card">
 <div class="project-image-wrapper">
-![TradeGuardian AI](/images/tradeguardian.jpg){: .project-image}
+![NCCS AI Agent](/images/500x300.png){: .project-image}
 </div>
 <div class="project-content">
-<h2 class="project-title">TradeGuardian AI</h2>
+<h2 class="project-title">AI Agent for NCCS (Conversational Analytics)</h2>
+<div class="project-meta">Jan 2026</div>
 <div class="project-description">
-Developed an AI-powered DeFi trading assistant that enables users to execute crypto trades via natural language through a chatbot interface. Integrated OpenAI for adaptive decision-making, Jupiter Aggregator for pre-trade simulation and on-chain execution.
+Built an NLP-driven analytics agent enabling clinicians to explore diagnostic patterns and trends in healthcare data through natural language queries and dashboards.
 </div>
 <div class="skills-list">
-<span class="skill-tag">Python</span>
-<span class="skill-tag">OpenAI</span>
-<span class="skill-tag">Blockchain</span>
+<span class="skill-tag">NLP</span>
+<span class="skill-tag">Conversational AI</span>
+<span class="skill-tag">Dashboards</span>
 </div>
-[Read more](https://github.com/bnb-hack){: .read-more}
 </div>
 </div>
 
 <div class="project-card">
 <div class="project-image-wrapper">
-![NUSGlance](/images/nusglance.jpg){: .project-image}
+![UBS FinAI](/images/500x300.png){: .project-image}
 </div>
 <div class="project-content">
-<h2 class="project-title">NUSGlance Academic Tracker</h2>
+<h2 class="project-title">UBS FinAI: FX Volatility Attribution</h2>
+<div class="project-meta">Dec 2025</div>
 <div class="project-description">
-Designed and developed a unified academic tracking platform using Vue.js and Firebase to consolidate disparate learning tools into a seamless, centralized dashboard. This streamlined approach improved students' visibility over coursework.
+Delivered an AI-powered FX volatility attribution framework using RAG-enabled sentiment analysis and factor modeling to explain term structure, skew, and smile movements with trader-oriented insights.
 </div>
 <div class="skills-list">
-<span class="skill-tag">Vue.js</span>
-<span class="skill-tag">Firebase</span>
-<span class="skill-tag">JavaScript</span>
+<span class="skill-tag">RAG</span>
+<span class="skill-tag">Sentiment Analysis</span>
+<span class="skill-tag">Factor Modeling</span>
 </div>
-[Read more](https://bt3103-7c86e.web.app){: .read-more}
 </div>
 </div>
 
 <div class="project-card">
 <div class="project-image-wrapper">
-![Social Influence](/images/social-influence.jpg){: .project-image}
+![Systematic Trading](/images/500x300.png){: .project-image}
 </div>
 <div class="project-content">
-<h2 class="project-title">Social Influence Analysis</h2>
+<h2 class="project-title">Systematic Trading Strategy Development</h2>
+<div class="project-meta">Oct 2025</div>
 <div class="project-description">
-Developed a simulation of voter behavior on a social graph to evaluate political influence strategies. Built an undirected graph from shared hobbies and modeled daily vote propagation until stabilization using spectral graph theory.
+Developed and backtested volatility-aware trend-following and Keltner breakout strategies with regime filters and portfolio-level risk targeting on MAANG equities.
 </div>
 <div class="skills-list">
 <span class="skill-tag">Python</span>
-<span class="skill-tag">Graph Neural Networks</span>
-<span class="skill-tag">NetworkX</span>
+<span class="skill-tag">Time Series</span>
+<span class="skill-tag">Risk Targeting</span>
 </div>
-[Read more](https://github.com/lydia372/Social-Influence-Optimization-via-Graph-Neural-Networks/tree/main){: .read-more}
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-image-wrapper">
+![Global Voices in Play](/images/500x300.png){: .project-image}
+</div>
+<div class="project-content">
+<h2 class="project-title">Global Voices in Play (LLM-Driven Youth Gaming Addiction Analysis)</h2>
+<div class="project-meta">Jul 2025 – Nov 2025</div>
+<div class="project-description">
+Published at the 2025 Global Open Research Competition (Tencent x NUS). Built an LLM-driven multilingual analysis pipeline using embedding-space modeling, supervised sentiment classification, affect-keyword mapping, unsupervised clustering, and large-scale social media scraping to generate cross-cultural digital well-being insights.
+</div>
+<div class="skills-list">
+<span class="skill-tag">LLMs</span>
+<span class="skill-tag">Multilingual NLP</span>
+<span class="skill-tag">Clustering</span>
+</div>
+[Read more](https://bschool.nus.edu.sg/cgs/wp-content/uploads/sites/145/2026/01/Proceedings-of-Tencent-CGS-Academic-Conference-2025_Volume-I_Research-Papers-and-Commentaries.pdf){: .read-more}
 </div>
 </div>
 
