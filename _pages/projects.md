@@ -40,6 +40,13 @@ classes: wide
   text-decoration: none;
 }
 
+.project-card h2,
+.project-card div,
+.project-card span,
+.project-card p {
+  text-decoration: none;
+}
+
 .project-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
