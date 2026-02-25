@@ -129,7 +129,7 @@ classes: wide
 
 <div class="project-card">
 <div class="project-image-wrapper">
-![NCCS AI Agent](/images/500x300.png){: .project-image}
+![NCCS AI Agent](/images/nccs-ai.jpg){: .project-image}
 </div>
 <div class="project-content">
 <h2 class="project-title">AI Agent for NCCS (Conversational Analytics)</h2>
@@ -147,7 +147,7 @@ Built an NLP-driven analytics agent enabling clinicians to explore diagnostic pa
 
 <div class="project-card">
 <div class="project-image-wrapper">
-![UBS FinAI](/images/500x300.png){: .project-image}
+![UBS FinAI](/images/ubs-finai.jpg){: .project-image}
 </div>
 <div class="project-content">
 <h2 class="project-title">UBS FinAI: FX Volatility Attribution</h2>
@@ -165,7 +165,7 @@ Delivered an AI-powered FX volatility attribution framework using RAG-enabled se
 
 <div class="project-card">
 <div class="project-image-wrapper">
-![Systematic Trading](/images/500x300.png){: .project-image}
+![Systematic Trading](/images/systematic-trading.webp){: .project-image}
 </div>
 <div class="project-content">
 <h2 class="project-title">Systematic Trading Strategy Development</h2>
@@ -181,9 +181,9 @@ Developed and backtested volatility-aware trend-following and Keltner breakout s
 </div>
 </div>
 
-<div class="project-card">
+<a class="project-card" href="https://bschool.nus.edu.sg/cgs/wp-content/uploads/sites/145/2026/01/Proceedings-of-Tencent-CGS-Academic-Conference-2025_Volume-I_Research-Papers-and-Commentaries.pdf">
 <div class="project-image-wrapper">
-![Global Voices in Play](/images/500x300.png){: .project-image}
+![Global Voices in Play](/images/global-voices.png){: .project-image}
 </div>
 <div class="project-content">
 <h2 class="project-title">Global Voices in Play (LLM-Driven Youth Gaming Addiction Analysis)</h2>
@@ -196,8 +196,7 @@ Published at the 2025 Global Open Research Competition (Tencent x NUS). Built an
 <span class="skill-tag">Multilingual NLP</span>
 <span class="skill-tag">Clustering</span>
 </div>
-[Read more](https://bschool.nus.edu.sg/cgs/wp-content/uploads/sites/145/2026/01/Proceedings-of-Tencent-CGS-Academic-Conference-2025_Volume-I_Research-Papers-and-Commentaries.pdf){: .read-more}
 </div>
-</div>
+</a>
 
 </div>
