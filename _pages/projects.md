@@ -28,6 +28,18 @@ classes: wide
   flex-direction: column;
 }
 
+.project-card,
+.project-card:hover,
+.project-card:focus,
+.project-card:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card * {
+  text-decoration: none;
+}
+
 .project-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -129,7 +141,7 @@ classes: wide
 
 <div class="project-card">
 <div class="project-image-wrapper">
-![NCCS AI Agent](/images/nccs-ai.jpg){: .project-image}
+<img class="project-image" src="/images/nccs-ai.jpg" alt="NCCS AI Agent">
 </div>
 <div class="project-content">
 <h2 class="project-title">AI Agent for NCCS (Conversational Analytics)</h2>
@@ -147,7 +159,7 @@ Built an NLP-driven analytics agent enabling clinicians to explore diagnostic pa
 
 <div class="project-card">
 <div class="project-image-wrapper">
-![UBS FinAI](/images/ubs-finai.jpg){: .project-image}
+<img class="project-image" src="/images/ubs-finai.jpg" alt="UBS FinAI">
 </div>
 <div class="project-content">
 <h2 class="project-title">UBS FinAI: FX Volatility Attribution</h2>
@@ -165,7 +177,7 @@ Delivered an AI-powered FX volatility attribution framework using RAG-enabled se
 
 <div class="project-card">
 <div class="project-image-wrapper">
-![Systematic Trading](/images/systematic-trading.webp){: .project-image}
+<img class="project-image" src="/images/systematic-trading.webp" alt="Systematic Trading">
 </div>
 <div class="project-content">
 <h2 class="project-title">Systematic Trading Strategy Development</h2>
@@ -183,7 +195,7 @@ Developed and backtested volatility-aware trend-following and Keltner breakout s
 
 <a class="project-card" href="https://bschool.nus.edu.sg/cgs/wp-content/uploads/sites/145/2026/01/Proceedings-of-Tencent-CGS-Academic-Conference-2025_Volume-I_Research-Papers-and-Commentaries.pdf">
 <div class="project-image-wrapper">
-![Global Voices in Play](/images/global-voices.png){: .project-image}
+<img class="project-image" src="/images/global-voices.png" alt="Global Voices in Play">
 </div>
 <div class="project-content">
 <h2 class="project-title">Global Voices in Play (LLM-Driven Youth Gaming Addiction Analysis)</h2>
