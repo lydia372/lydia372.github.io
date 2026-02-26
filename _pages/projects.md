@@ -148,6 +148,24 @@ classes: wide
 
 <div class="project-card">
 <div class="project-image-wrapper">
+<img class="project-image" src="/images/aniverse.jpg" alt="AniVerse">
+</div>
+<div class="project-content">
+<h2 class="project-title">AniVerse: A Hybrid Deep Learning Anime Recommendation System</h2>
+<div class="project-meta">Feb 2026</div>
+<div class="project-description">
+AniVerse is a multi-modal deep learning recommendation system designed to personalize anime discovery using large-scale user–item interaction data. It combines neural collaborative filtering with transformer-based text embeddings from anime synopses to capture both behavioral and semantic signals.
+</div>
+<div class="skills-list">
+<span class="skill-tag">Deep Learning</span>
+<span class="skill-tag">Recommenders</span>
+<span class="skill-tag">Transformers</span>
+</div>
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-image-wrapper">
 <img class="project-image" src="/images/nccs-ai.jpg" alt="NCCS AI Agent">
 </div>
 <div class="project-content">
@@ -200,7 +218,7 @@ Developed and backtested volatility-aware trend-following and Keltner breakout s
 </div>
 </div>
 
-<a class="project-card" href="https://bschool.nus.edu.sg/cgs/wp-content/uploads/sites/145/2026/01/Proceedings-of-Tencent-CGS-Academic-Conference-2025_Volume-I_Research-Papers-and-Commentaries.pdf">
+<a class="project-card" href="https://bschool.nus.edu.sg/cgs/wp-content/uploads/sites/145/2026/01/Proceedings-of-Tencent-CGS-Academic-Conference-2025_Volume-II_Poster-Submissions.pdf">
 <div class="project-image-wrapper">
 <img class="project-image" src="/images/global-voices.png" alt="Global Voices in Play">
 </div>
