@@ -7,8 +7,16 @@ classes: wide
 ---
 
 <div class="cv-header" markdown="1">
-# Business Analytics 📊
+# Yichuan Liu
 {: .text-center}
+
+<div class="cv-subtitle" markdown="1">
+Business Analytics & Quantitative Finance @ NUS | Available May 13, 2026 – Dec 30, 2026
+</div>
+
+<div class="cv-contact" markdown="1">
+HP: +65 8680 0146 | Email: yichuanliu@u.nus.edu | LinkedIn: linkedin.com/in/liu-yichuan
+</div>
 
 <div class="technical-skills" markdown="1">
 ## Technical Skills 🛠️
@@ -17,19 +25,19 @@ classes: wide
 <div class="skills-grid" markdown="1">
 <div class="skills-category" markdown="1">
 **Programming & Data Analytics**
-- Python, R, SQL, JavaScript
-- Power BI, Tableau, Advanced Excel
+- Python, R, SQL, Spark, Airflow, JavaScript
+- Power BI, Tableau, Excel VBA
 </div>
 
 <div class="skills-category" markdown="1">
-**Statistical & ML Techniques**
-- Regression, Classification, Clustering
-- Large Language Model (LLM) Integration
+**Machine Learning & Analytics**
+- Regression, Classification, Clustering, Time Series Analysis
+- Sentiment Analysis, LLM Integration, Feature Engineering, Optimization, AI Agent Development
 </div>
 
 <div class="skills-category" markdown="1">
 **Software & Tools**
-- Git, VS Code, Jupyter Notebook, RStudio
+- Git, VS Code, Jupyter Notebook, Cursor, Docker, AWS, RStudio
 - Notion, Photoshop
 </div>
 
@@ -46,8 +54,8 @@ classes: wide
 {: .cv-section-title}
 
 <div class="education-entry" markdown="1">
-**B.S., Business Analytics** \\
-National University of Singapore \\
+**B.S., Business Analytics & Quantitative Finance** \\
+National University of Singapore, School of Computing \\
 *Expected Graduation: May 2027*
 {: .education-details}
 </div>
@@ -58,29 +66,31 @@ National University of Singapore \\
 {: .cv-section-title}
 
 <div class="experience-entry" markdown="1">
-### 🏦 Actuarial Business Intelligence Intern @ Monee (Insurance & Fintech)
+### 🧠 Student Researcher @ A*STAR, Institute of High Performing Computing
 {: .experience-title}
-*June 2025 – Present*
+*Aug 2025 – Present*
 {: .experience-date}
 
-- Optimized data workflow design to enhance the efficiency and accuracy of recurring actuarial reporting
-- Conducted in-depth half-year review & presentation of Straight-Through Processing (STP) for insurance claims, identifying key bottlenecks, backtesting, and refining pass-through thresholds to improve claim automation 
+- Developed predictive models on large-scale AIS data to forecast port turnaround and stay durations
+- Modeled congestion dynamics and effective port capacity using engineered features to support logistics optimization
+- Built dashboards to communicate congestion patterns, capacity stress points, and model outputs
 </div>
 
 <div class="experience-entry" markdown="1">
-### 🛡️ Intern @ Scantist
+### 📊 Actuary Data Analyst @ Monee (Sea Group, Fintech & Insurtech)
 {: .experience-title}
-*May 2024 – June 2025*
+*Jun 2025 – Aug 2025*
 {: .experience-date}
 
-- Built interactive dashboards and visualizations to track satisfaction and enhance cybersecurity course experience
-- Researched LLM applications and AI benchmarks in cybersecurity and translated insights into business-driven web blog content for outreach
+- Restructured legacy ETL pipelines for actuarial reporting using Python, SQL, and Spark, improving runtime by ~30%
+- Reviewed and optimized automated claim-approval criteria to improve customer satisfaction and turnaround efficiency
+- Presented actionable insights and implementation proposals to management
 </div>
 
 <div class="experience-entry" markdown="1">
 ### 🏛️ Risk Management Assistant @ NUS Office of Risk Management and Compliance
 {: .experience-title}
-*May 2025 – June 2025*
+*May 2025 – Present*
 {: .experience-date}
 
 - Developed and maintained automated data processing and analysis pipelines for university-wide incident reports across departments
@@ -88,13 +98,33 @@ National University of Singapore \\
 </div>
 
 <div class="experience-entry" markdown="1">
-### 📈 Data Analyst @ Business Analytics Consulting Club
+### 📈 Data Analyst @ NUS Business Analytics Consulting
 {: .experience-title}
 *Dec 2024 – Present*
 {: .experience-date}
 
 - Designed and implemented predictive analytics models using time series forecasting to support strategic decision-making
 - Developed machine learning models to uncover business trends and deliver actionable insights
+</div>
+
+<div class="experience-entry" markdown="1">
+### 🛡️ Intern @ Scantist
+{: .experience-title}
+*May 2024 – Present*
+{: .experience-date}
+
+- Built interactive dashboards and visualizations to track satisfaction and enhance cybersecurity course experience
+- Researched LLM applications and AI benchmarks in cybersecurity and translated insights into business-driven web blog content for outreach
+</div>
+
+<div class="experience-entry" markdown="1">
+### 🌐 Research Assistant (Remote) @ Université Laval
+{: .experience-title}
+*Aug 2022 – Sep 2022*
+{: .experience-date}
+
+- Conducted cross-country economic data analysis using R
+- Designed data pipelines to visualize and interpret international trade trends
 </div>
 </div>
 
@@ -103,21 +133,33 @@ National University of Singapore \\
 {: .cv-section-title}
 
 <div class="project-entry" markdown="1">
-### [TradeGuardian AI](https://github.com/bnb-hack)
+### AniVerse: A Hybrid Deep Learning Anime Recommendation System
 {: .project-title}
-Developed an AI-powered DeFi trading assistant that enables users to execute crypto trades via natural language through a chatbot interface. Integrated OpenAI for adaptive decision-making, Jupiter Aggregator for pre-trade simulation and on-chain execution, and a custom trust scoring engine to evaluate token safety, with full transparency via automated Twitter reporting.
+Feb 2026. Built a multi-modal deep learning recommender using large-scale user–item interactions and transformer-based text embeddings from anime synopses to personalize discovery.
 </div>
 
 <div class="project-entry" markdown="1">
-### [NUSGlance Academic Tracker](https://bt3103-7c86e.web.app)
+### AI Agent for NCCS (Conversational Analytics)
 {: .project-title}
-Designed and developed a unified academic tracking platform using Vue.js and Firebase to consolidate disparate learning tools into a seamless, centralized dashboard. This streamlined approach improved students' visibility over coursework and task management, offering a flexible, real-time solution to enhance productivity and reduce cognitive load.
+Jan 2026. Built an NLP-driven analytics agent enabling clinicians to explore diagnostic patterns and trends in healthcare data through natural language queries and dashboards.
 </div>
 
 <div class="project-entry" markdown="1">
-### Social Influence Optimization via Graph Neural Networks
+### UBS FinAI: FX Volatility Attribution
 {: .project-title}
-Developed a simulation of voter behavior on a social graph to evaluate political influence strategies. Built an undirected graph from shared hobbies and modeled daily vote propagation until stabilization. Simulated interventions—such as targeted influencers and hobby-based tactics—to assess impact on voting outcomes. Applied spectral graph theory (Laplacian eigen-decomposition, L^k) to identify the most structurally influential nodes, informing optimal influence strategies based on network topology.
+Dec 2025. Delivered FX volatility attribution with RAG-enabled sentiment analysis and factor modeling to explain term structure, skew, and smile movements with trader-oriented insights.
+</div>
+
+<div class="project-entry" markdown="1">
+### Systematic Trading Strategy Development
+{: .project-title}
+Oct 2025. Developed and backtested volatility-aware trend-following and Keltner breakout strategies with regime filters and portfolio-level risk targeting on MAANG equities.
+</div>
+
+<div class="project-entry" markdown="1">
+### [Global Voices in Play: Cross-Cultural LLM-Driven Analysis of Youth Gaming Addiction](https://bschool.nus.edu.sg/cgs/wp-content/uploads/sites/145/2026/01/Proceedings-of-Tencent-CGS-Academic-Conference-2025_Volume-II_Poster-Submissions.pdf)
+{: .project-title}
+Jul 2025 – Nov 2025. Published at the 2025 Global Open Research Competition (Tencent x NUS). Built a multilingual analysis pipeline using embedding-space modeling, supervised sentiment classification, affect–keyword mapping, unsupervised clustering, and large-scale social media scraping to generate cross-cultural digital well-being insights.
 </div>
 </div>
 
@@ -126,13 +168,13 @@ Developed a simulation of voter behavior on a social graph to evaluate political
 {: .cv-section-title}
 
 <div class="activity-entry" markdown="1">
-### Vice President & Publicity Manager @ NUS Harmonica
+### Vice-President & Publicity Manager @ NUS Harmonica Orchestra
 {: .activity-title}
-*Apr 2025 – Present*
+*Aug 2025 – Present*
 {: .activity-date}
 
-- Oversaw club operations, coordinated internal workflows, and led event planning for performances and recruitment initiatives
-- Designed and executed multi-channel publicity campaigns to enhance club visibility and drive engagement among the student community
+- Led a cross-faculty orchestra to deliver two full-scale concerts (1,000+ audience)
+- Streamlined workflows and resolved scheduling bottlenecks to improve rehearsal efficiency
 </div>
 
 <div class="activity-entry" markdown="1">
@@ -195,6 +237,19 @@ Developed a simulation of voter behavior on a social graph to evaluate political
   color: #666;
   font-style: italic;
   margin-bottom: 1em;
+}
+
+.cv-subtitle {
+  text-align: center;
+  color: #4a5568;
+  margin-top: 0.5em;
+  font-weight: 500;
+}
+
+.cv-contact {
+  text-align: center;
+  color: #718096;
+  margin-top: 0.25em;
 }
 
 a {
