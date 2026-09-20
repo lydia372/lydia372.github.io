@@ -148,6 +148,24 @@ classes: wide
 
 <div class="project-card">
 <div class="project-image-wrapper">
+<img class="project-image" src="/images/fraud-analytics.jpg" alt="Credit Card Fraud Analytics">
+</div>
+<div class="project-content">
+<h2 class="project-title">Credit Card Fraud Analytics</h2>
+<div class="project-meta">Aug 2026</div>
+<div class="project-description">
+Formulated an end-to-end fraud analytics model combining transaction-level feature engineering with supervised and unsupervised machine learning to detect anomalous financial activity. Evaluated model performance and translated fraud signals into actionable insights for real-world risk detection and decision-making.
+</div>
+<div class="skills-list">
+<span class="skill-tag">Machine Learning</span>
+<span class="skill-tag">Fraud Detection</span>
+<span class="skill-tag">Financial Risk</span>
+</div>
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-image-wrapper">
 <img class="project-image" src="/images/aniverse.jpg" alt="AniVerse">
 </div>
 <div class="project-content">
@@ -169,15 +187,15 @@ AniVerse is a multi-modal deep learning recommendation system designed to person
 <img class="project-image" src="/images/nccs-ai.jpg" alt="NCCS AI Agent">
 </div>
 <div class="project-content">
-<h2 class="project-title">AI Agent for NCCS (Conversational Analytics)</h2>
+<h2 class="project-title">AI Agent for National Cancer Centre Singapore</h2>
 <div class="project-meta">Jan 2026</div>
 <div class="project-description">
-Built an NLP-driven analytics agent enabling clinicians to explore diagnostic patterns and trends in healthcare data through natural language queries and dashboards.
+Designed a multi-agent AI-powered analytics system integrating RAG-based semantic search over healthcare data schemas and table relationships to enable scalable natural language-to-SQL analysis. Built automated dashboards and standardized analytical metrics to support anomaly detection, trend analysis, and data-driven insights across diagnostic datasets.
 </div>
 <div class="skills-list">
-<span class="skill-tag">NLP</span>
-<span class="skill-tag">Conversational AI</span>
-<span class="skill-tag">Dashboards</span>
+<span class="skill-tag">AI Agents</span>
+<span class="skill-tag">RAG</span>
+<span class="skill-tag">LangGraph</span>
 </div>
 </div>
 </div>
@@ -187,10 +205,10 @@ Built an NLP-driven analytics agent enabling clinicians to explore diagnostic pa
 <img class="project-image" src="/images/ubs-finai.jpg" alt="UBS FinAI">
 </div>
 <div class="project-content">
-<h2 class="project-title">UBS FinAI: FX Volatility Attribution</h2>
+<h2 class="project-title">UBS Tomorrow's Talent Program FinAI</h2>
 <div class="project-meta">Dec 2025</div>
 <div class="project-description">
-Delivered an AI-powered FX volatility attribution framework using RAG-enabled sentiment analysis and factor modeling to explain term structure, skew, and smile movements with trader-oriented insights.
+Developed a quantitative FX analytics framework combining factor modelling with RAG-based news sentiment analysis to attribute volatility movements. Transformed unstructured news into standardized signals, enabling explainable market analysis.
 </div>
 <div class="skills-list">
 <span class="skill-tag">RAG</span>

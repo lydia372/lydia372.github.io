@@ -7,10 +7,10 @@ author_profile: true
 
 ## Research
 
-### Student Researcher @ A*STAR, Institute of High Performing Computing _(Aug 2025 – Present)_
-- Developed predictive models on large-scale AIS data to forecast port turnaround and stay durations.  
-- Modeled congestion dynamics and effective port capacity using engineered features to support logistics optimization.  
-- Built dashboards to communicate congestion patterns, capacity stress points, and model outputs.
+### Research Assistant @ A*STAR, Institute of High Performance Computing _(Aug 2025 – May 2026)_
+Maritime AI
+- Designed end-to-end data pipelines for large-scale AIS datasets, integrating data cleaning, feature engineering and validation to support maritime congestion and port capacity analysis.  
+- Developed Markov chain models to analyze vessel congestion dynamics and capacity constraints, translating large-scale maritime data into operational insights for port optimization.
 
 ### Research Assistant (Remote) @ Université Laval _(Aug 2022 – Sep 2022)_
 - Conducted cross-country economic data analysis using R.  
@@ -18,10 +18,14 @@ author_profile: true
 
 ## Industry
 
-### Actuary Data Analyst @ Monee (Sea Group, Fintech & Insurtech) _(Jun 2025 – Aug 2025)_
-- Restructured legacy ETL pipelines for actuarial reporting using Python, SQL, and Spark, improving runtime by ~30%.  
-- Reviewed and optimized automated claim-approval criteria to improve customer satisfaction and turnaround efficiency.  
-- Presented actionable insights and implementation proposals to management.
+### Data Science & AI Engineer Intern @ BNP Paribas _(Jun 2026 – Present)_
+Wealth Management AI Solutions
+- Architected an enterprise User Intent platform leveraging embeddings, semantic vector search and metadata enrichment to structure and contextualize enterprise knowledge, with Qdrant and MCP powering downstream AI applications.  
+- Orchestrated LangGraph-based agent workflows for multi-step enterprise use cases, integrating tool routing, state management and end-to-end traceability for production-grade AI solutions.
+
+### Actuarial Data Analytics Intern @ Monee (Sea Group, Fintech & Insurtech) _(Jun 2025 – Aug 2025)_
+- Re-engineered and automated actuarial reporting pipelines using Python, SQL and PySpark, improving data scalability and reducing runtime by 30%.  
+- Developed a feature-driven automated claim approval model using behavioural and transaction variables, tuning decision thresholds to improve approval efficiency while controlling claim costs and portfolio risk.
 
 ### Risk Management Assistant @ NUS Office of Risk Management and Compliance _(May 2025 – Present)_
 - Developed and maintained automated data pipelines for university-wide incident reports across departments.  

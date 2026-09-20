@@ -11,7 +11,7 @@ classes: wide
 {: .text-center}
 
 <div class="cv-subtitle" markdown="1">
-Business Analytics & Quantitative Finance @ NUS | Available May 13, 2026 – Dec 30, 2026
+Business Analytics & Quantitative Finance @ NUS
 </div>
 
 <div class="cv-contact" markdown="1">
@@ -24,21 +24,23 @@ HP: +65 8680 0146 | Email: yichuanliu@u.nus.edu | LinkedIn: linkedin.com/in/liu-
 
 <div class="skills-grid" markdown="1">
 <div class="skills-category" markdown="1">
-**Programming & Data Analytics**
-- Python, R, SQL, Spark, Airflow, JavaScript
-- Power BI, Tableau, Excel VBA
+**Data & Analytics**
+- Python, SQL, R, Pandas, NumPy, PySpark
+- Data Engineering, Data Pipelines, Databases, Feature Engineering
+- Time Series Analysis, Power BI, Tableau
 </div>
 
 <div class="skills-category" markdown="1">
-**Machine Learning & Analytics**
-- Regression, Classification, Clustering, Time Series Analysis
-- Sentiment Analysis, LLM Integration, Feature Engineering, Optimization, AI Agent Development
+**AI & Machine Learning**
+- Machine Learning, LLMs, RAG, Agentic AI, MCP, Agent Harness
+- NLP, Embeddings, Prompt Engineering
+- Quantitative Modelling, Statistical Analysis
 </div>
 
 <div class="skills-category" markdown="1">
-**Software & Tools**
-- Git, VS Code, Jupyter Notebook, Cursor, Docker, AWS, RStudio
-- Notion, Photoshop
+**Software Development**
+- FastAPI, REST APIs, API Integration, System Design
+- Docker, AWS, Airflow, Git, CI/CD, Agile Development
 </div>
 
 <div class="skills-category" markdown="1">
@@ -66,25 +68,33 @@ National University of Singapore, School of Computing \\
 {: .cv-section-title}
 
 <div class="experience-entry" markdown="1">
-### 🧠 Student Researcher @ A*STAR, Institute of High Performing Computing
+### 🏦 Data Science & AI Engineer Intern @ BNP Paribas
 {: .experience-title}
-*Aug 2025 – Present*
+*Jun 2026 – Present* · Wealth Management AI Solutions
 {: .experience-date}
 
-- Developed predictive models on large-scale AIS data to forecast port turnaround and stay durations
-- Modeled congestion dynamics and effective port capacity using engineered features to support logistics optimization
-- Built dashboards to communicate congestion patterns, capacity stress points, and model outputs
+- Architected an enterprise User Intent platform leveraging embeddings, semantic vector search and metadata enrichment to structure and contextualize enterprise knowledge, with Qdrant and MCP powering downstream AI applications
+- Orchestrated LangGraph-based agent workflows for multi-step enterprise use cases, integrating tool routing, state management and end-to-end traceability for production-grade AI solutions
 </div>
 
 <div class="experience-entry" markdown="1">
-### 📊 Actuary Data Analyst @ Monee (Sea Group, Fintech & Insurtech)
+### 🧠 Research Assistant @ A*STAR, Institute of High Performance Computing
+{: .experience-title}
+*Aug 2025 – May 2026* · Maritime AI
+{: .experience-date}
+
+- Designed end-to-end data pipelines for large-scale AIS datasets, integrating data cleaning, feature engineering and validation to support maritime congestion and port capacity analysis
+- Developed Markov chain models to analyze vessel congestion dynamics and capacity constraints, translating large-scale maritime data into operational insights for port optimization
+</div>
+
+<div class="experience-entry" markdown="1">
+### 📊 Actuarial Data Analytics Intern @ Monee (Sea Group, Fintech & Insurtech)
 {: .experience-title}
 *Jun 2025 – Aug 2025*
 {: .experience-date}
 
-- Restructured legacy ETL pipelines for actuarial reporting using Python, SQL, and Spark, improving runtime by ~30%
-- Reviewed and optimized automated claim-approval criteria to improve customer satisfaction and turnaround efficiency
-- Presented actionable insights and implementation proposals to management
+- Re-engineered and automated actuarial reporting pipelines using Python, SQL and PySpark, improving data scalability and reducing runtime by 30%
+- Developed a feature-driven automated claim approval model using behavioural and transaction variables, tuning decision thresholds to improve approval efficiency while controlling claim costs and portfolio risk
 </div>
 
 <div class="experience-entry" markdown="1">
@@ -133,21 +143,27 @@ National University of Singapore, School of Computing \\
 {: .cv-section-title}
 
 <div class="project-entry" markdown="1">
+### Credit Card Fraud Analytics
+{: .project-title}
+Aug 2026. Formulated an end-to-end fraud analytics model combining transaction-level feature engineering with supervised and unsupervised machine learning to detect anomalous financial activity. Evaluated model performance and translated fraud signals into actionable insights for real-world risk detection and decision-making.
+</div>
+
+<div class="project-entry" markdown="1">
 ### AniVerse: A Hybrid Deep Learning Anime Recommendation System
 {: .project-title}
 Feb 2026. Built a multi-modal deep learning recommender using large-scale user–item interactions and transformer-based text embeddings from anime synopses to personalize discovery.
 </div>
 
 <div class="project-entry" markdown="1">
-### AI Agent for NCCS (Conversational Analytics)
+### AI Agent for National Cancer Centre Singapore
 {: .project-title}
-Jan 2026. Built an NLP-driven analytics agent enabling clinicians to explore diagnostic patterns and trends in healthcare data through natural language queries and dashboards.
+Jan 2026. Designed a multi-agent AI-powered analytics system integrating RAG-based semantic search over healthcare data schemas and table relationships to enable scalable natural language-to-SQL analysis. Built automated dashboards and standardized analytical metrics to support anomaly detection, trend analysis, and data-driven insights across diagnostic datasets.
 </div>
 
 <div class="project-entry" markdown="1">
-### UBS FinAI: FX Volatility Attribution
+### UBS Tomorrow's Talent Program FinAI
 {: .project-title}
-Dec 2025. Delivered FX volatility attribution with RAG-enabled sentiment analysis and factor modeling to explain term structure, skew, and smile movements with trader-oriented insights.
+Dec 2025. Developed a quantitative FX analytics framework combining factor modelling with RAG-based news sentiment analysis to attribute volatility movements. Transformed unstructured news into standardized signals, enabling explainable market analysis.
 </div>
 
 <div class="project-entry" markdown="1">
@@ -186,6 +202,16 @@ Jul 2025 – Nov 2025. Published at the 2025 Global Open Research Competition (T
 - Conducted market research and competitor benchmarking to support strategic case development across industries such as F&B, finance, and aviation
 - Collaborated in cross-functional teams to develop innovative, data-backed solutions for real-world business problems
 - Awarded Top 10 Team in Singapore at the Young SDG Leaders Award 2024 for proposing a sustainable business strategy
+</div>
+</div>
+
+<div class="awards" markdown="1">
+## Awards 🏆
+{: .cv-section-title}
+
+<div class="activity-entry" markdown="1">
+- **Tencent–CGS Academic Conference, Technology for Good** — Poster Presentation on LLM-driven youth gaming behaviour analysis using multi-platform social media data
+- **Young SDG Leaders Award 2024** — Singapore Top 10 Team, Sustainable Business Strategy Competition
 </div>
 </div>
 </div>

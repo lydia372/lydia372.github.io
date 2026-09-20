@@ -61,8 +61,7 @@ Business Analytics & Quantitative Finance @ NUS
 </div>
 
 <div class="hero-description" markdown="1">
-I build AI-driven analytics and decision tools for finance, logistics, and healthcare. \\
-Available for full-time internship: May 13, 2026 – Dec 30, 2026
+I build AI-driven analytics and decision tools for finance, logistics, and healthcare.
 </div>
 
 <div class="hero-links" markdown="1">
@@ -74,17 +73,17 @@ HP: [ +65 8680 0146 ](tel:+6586800146) | Email: [yichuanliu@u.nus.edu](mailto:yi
 ## Bio
 {: .section-title}
 
-I'm a Business Analytics & Quantitative Finance student at NUS (School of Computing), graduating May 2027. My work focuses on ML-driven analytics, simulation, and productized data tooling across finance, logistics, and healthcare.
+I'm a Business Analytics & Quantitative Finance student at NUS (School of Computing), graduating May 2027. Currently a Data Science & AI Engineer Intern at BNP Paribas, working on enterprise AI solutions for Wealth Management. My work focuses on ML-driven analytics, agentic AI, and productized data tooling across finance, logistics, and healthcare.
 </div>
 
 <div class="highlights" markdown="1">
 ## Highlights
 {: .section-title}
 
-- A*STAR (IHPC): Built predictive models on large-scale AIS data to forecast port turnaround time and capacity stress points.
-- Monee (Sea Group): Rebuilt actuarial ETL pipelines in Python/SQL/Spark, improving performance by ~30%.
-- UBS FinAI: Delivered FX volatility attribution with RAG-enabled sentiment analysis and factor modeling.
-- NCCS AI agent: Built an NLP analytics agent for clinical data exploration and dashboards.
+- BNP Paribas: Architecting enterprise AI solutions leveraging embeddings, semantic vector search, and LangGraph-based agent workflows for Wealth Management.
+- A*STAR (IHPC): Designed end-to-end data pipelines for large-scale AIS datasets and developed Markov chain models for maritime congestion analysis.
+- Monee (Sea Group): Re-engineered actuarial reporting pipelines using Python/SQL/PySpark, reducing runtime by 30%.
+- NCCS AI agent: Designed a multi-agent AI analytics system integrating RAG-based semantic search for natural language-to-SQL analysis.
 </div>
 
 <div class="featured-work" markdown="1">
